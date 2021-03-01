@@ -25,6 +25,24 @@ When the user enters the link, a short link will appear. Use clipboard emote to 
 
 This is only going to work locally. You can deploy it in order to access the link globally. 
 
+## Screenshots
+
+1) Home Page rendered after opening the link from the terminal
+![Screenshot (6)](https://user-images.githubusercontent.com/54246710/109489089-63aa4980-7aac-11eb-938e-3a079b3334c6.png)
+
+2) Entered the link in the text field and clicked submit
+![Screenshot (7)](https://user-images.githubusercontent.com/54246710/109489097-660ca380-7aac-11eb-9b2c-23cfd1800efd.png)
+
+3) A short link is given in a read-only field. Copied the link using the clipboard.
+![Screenshot (8)](https://user-images.githubusercontent.com/54246710/109489106-673dd080-7aac-11eb-9817-6de8ca5c4ed6.png)
+
+4) Opened a new tab and pasted the link and pressed enter
+![Screenshot (9)](https://user-images.githubusercontent.com/54246710/109489115-6b69ee00-7aac-11eb-8432-176b9c591133.png)
+
+5) It redirected to the original link
+![Screenshot (10)](https://user-images.githubusercontent.com/54246710/109489121-6c9b1b00-7aac-11eb-8404-9ffbeb864c1c.png)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
