@@ -13,7 +13,10 @@ Create a virtual environment to install the dependent packages. You can use what
 
 2) Install the packages using ```requirements.txt```. You can type ```pip install -r requirements.txt``` after activating your virtual environment. 
 
-3) Open the terminal in the directory where the file ```manage.py``` is stored. Then type ```python manage.py runserver``` and press enter.
+3) Open the terminal in the directory where the file ```manage.py``` is stored.
+    1)  Type ```python manage.py makemigrations``` and press enter.
+    2)  Then type ```python manage.py migrate``` and press enter.
+    3)  Finally, ```python manage.py runserver``` and press enter to run the server.
 
 4) Open the link which will flash while the server is running. 
 
