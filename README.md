@@ -4,43 +4,27 @@ URL shortening is a technique on the World Wide Web that enables the Uniform Res
 
 The project is developed using Django for backend and HTML and CSS for frontend. 
 
-## Installation
-
-In order to run the program, you need Python and Django. Take the instructions below to successfully execute the program.
-
-1) Create a virtual environment;
-Create a virtual environment to install the dependent packages. You can use whatever method you like to create your own environment.
-
-2) Install the packages using ```requirements.txt```. You can type ```pip install -r requirements.txt``` after activating your virtual environment. 
-
-3) Open the terminal in the directory where the file ```manage.py``` is stored.
-    1)  Type ```python manage.py makemigrations``` and press enter.
-    2)  Then type ```python manage.py migrate``` and press enter.
-    3)  Finally, ```python manage.py runserver``` and press enter to run the server.
-
-4) Open the link which will flash while the server is running. 
-
 ## Usage
 When the user enters the link, a short link will appear. Use clipboard emote to copy the link. The link will redirect you to the original link. 
 
-This is only going to work locally. You can deploy it in order to access the link globally. 
+It has been deployed on Heroku. If you want then you can buy a domain and connect it with the Heroku as well. This will shortner the link even more. 
 
 ## Screenshots
 
-1) Home Page rendered after opening the link from the terminal
-![Screenshot (6)](https://user-images.githubusercontent.com/54246710/109489089-63aa4980-7aac-11eb-938e-3a079b3334c6.png)
+1) Home Page
+![Screenshot (16)](https://user-images.githubusercontent.com/54246710/109766994-f0741500-7c1c-11eb-9af1-455708bbf7d7.png)
 
 2) Entered the link in the text field and clicked submit
-![Screenshot (7)](https://user-images.githubusercontent.com/54246710/109489097-660ca380-7aac-11eb-9b2c-23cfd1800efd.png)
+![Screenshot (17)](https://user-images.githubusercontent.com/54246710/109767000-f1a54200-7c1c-11eb-9d02-fa9d3213a302.png)
 
 3) A short link is given in a read-only field. Copied the link using the clipboard.
-![Screenshot (8)](https://user-images.githubusercontent.com/54246710/109489106-673dd080-7aac-11eb-9817-6de8ca5c4ed6.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/54246710/109767002-f1a54200-7c1c-11eb-9087-b3175eef5cf1.png)
 
 4) Opened a new tab and pasted the link and pressed enter
-![Screenshot (9)](https://user-images.githubusercontent.com/54246710/109489115-6b69ee00-7aac-11eb-8432-176b9c591133.png)
+![Screenshot (19)](https://user-images.githubusercontent.com/54246710/109767004-f23dd880-7c1c-11eb-8ff8-877f892d6c2a.png)
 
 5) It redirected to the original link
-![Screenshot (10)](https://user-images.githubusercontent.com/54246710/109489121-6c9b1b00-7aac-11eb-8404-9ffbeb864c1c.png)
+![Screenshot (20)](https://user-images.githubusercontent.com/54246710/109767007-f2d66f00-7c1c-11eb-89a1-70571c6ededd.png)
 
 
 ## Contributing
