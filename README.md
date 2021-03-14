@@ -1,5 +1,7 @@
 # Url Shortner
 
+Project URL: https://urlshortner-django.herokuapp.com/
+
 URL shortening is a technique on the World Wide Web that enables the Uniform Resource Locator to be made considerably shorter and still direct to the desired page. This is done by using a redirect path to a web page that has a long URL.
 
 The project is developed using Django for backend and HTML and CSS for frontend. 
